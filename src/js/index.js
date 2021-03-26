@@ -21,8 +21,9 @@ setInterval(function() {
 	const three = Math.floor(counter / 100);
 	const two = Math.floor(counter / 10);
 	const one = Math.floor(counter / 1);
-	console.log(six, five, four, three, two, one);
+
 	counter++;
+
 	//start render your react application
 	ReactDOM.render(
 		<SecondsCounter
